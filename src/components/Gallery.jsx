@@ -1,21 +1,18 @@
 import HornedBeast from "./HornedBeast";
-import data from "../assets/beast-data";
 
-export default function Gallery({ setSelectedBeast, setIsModalShowing }) {
+export default function Gallery({ data, handleShowModal }) {
   return (
     <div className="Gallery">
-      {data.map((beast, index) => {
+      {data.map((beast) => {
         return (
-          <div key={beast.title}>
-            <HornedBeast
-              index={index}
-              title={beast.title}
-              imageUrl={beast.imageUrl}
-              description={beast.description}
-              setSelectedBeast={setSelectedBeast}
-              setIsModalShowing={setIsModalShowing}
-            />
-          </div>
+          <HornedBeast
+            key={beast._id}
+            title={beast.title}
+            imageUrl={beast.imageUrl}
+            description={beast.description}
+            horns={beast.horns}
+            handleShowModal={handleShowModal}
+          />
         );
       })}
     </div>

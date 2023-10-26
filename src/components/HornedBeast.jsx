@@ -1,12 +1,11 @@
 import { useState } from "react";
 
 export default function HornedBeast({
-  index,
   title,
   imageUrl,
   description,
-  setSelectedBeast,
-  setIsModalShowing,
+  horns,
+  handleShowModal,
 }) {
   const [likes, setLikes] = useState(0);
 
@@ -14,15 +13,16 @@ export default function HornedBeast({
     setLikes(likes + 1);
   }
 
-  function handleImageClick() {
-    setSelectedBeast(index);
-    setIsModalShowing(true);
-  }
   return (
     <div>
       <h2>{title}</h2>
-      <img src={imageUrl} alt={title} onClick={handleImageClick} />
+      <img
+        src={imageUrl}
+        alt={title}
+        onClick={() => handleShowModal({ title, imageUrl })}
+      />
       <p>{description}</p>
+      <p>Horns: {[horns]}</p>
       <p onClick={handleLikesClick}>❤ {likes}</p>
     </div>
   );

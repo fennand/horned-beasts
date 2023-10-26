@@ -1,42 +1,122 @@
 [
   {
-    "title": "Horny Beast 1",
+    "_id": "1",
+    "title": "Alcazar (Futurama)",
     "imageUrl": "https://static.wikia.nocookie.net/enfuturama/images/2/25/A_Bicyclops_Built_for_Two_%28Main_Episode%29_-_410.png",
-    "description": "The beast with many backs."
+    "description": "The beast with many backs.",
+    "keyword": "futurama",
+    "horns": 1
   },
   {
-    "title": "Horny Beast 2",
+    "_id": "2",
+    "title": "Goat (Hell?)",
     "imageUrl": "https://m.media-amazon.com/images/I/81A2Yl5c+CL.jpg",
-    "description": "A goat. Yeah, a regular goat . . . "
+    "description": "A goat. Yeah, a regular goat . . . ",
+    "keyword": "demon",
+    "horns": 2
   },
   {
-    "title": "Horny Beast 3",
+    "_id": "3",
+    "title": "Rhino (Ace Ventura)",
     "imageUrl": "https://www.thatawesomeshirt.com/images/get/1425/430x550/",
-    "description": "A beast birthing a man? RREEAAALLLLYYYY . . . "
+    "description": "A beast birthing a man? Alrighty then . . . ",
+    "keyword": "rhino",
+    "horns": 2
   },
   {
-    "title": "Horny Beast 4",
+    "_id": "4",
+    "title": "Rocksteady (TMNT)",
+    "imageUrl": "https://static.wikia.nocookie.net/tmnt/images/2/27/Rocksteady_fw.png",
+    "description": "Mutant beasts!",
+    "keyword": "rhino",
+    "horns": 2
+  },
+  {
+    "_id": "5",
+    "title": "The Lich (Adventure Time)",
     "imageUrl": "https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/1/16/Accuratelich.png",
-    "description": "A Lich-teral beast!"
+    "description": "A Lich-teral beast!",
+    "keyword": "adventure",
+    "horns": 1.5
   },
   {
-    "title": "Horny Beast 5",
-    "imageUrl": "https://static.wikia.nocookie.net/rickandmorty/images/c/c8/S4e4_morty%27s_dragon.png",
-    "description": "Do not bond souls with this beast."
+    "_id": "6",
+    "title": "Earl Sinclair (Dinosaurs)",
+    "imageUrl": "https://static.wikia.nocookie.net/dinosaurs-tv-series/images/9/95/Dinosaurs-EarlSinclair.jpg",
+    "description": "Showing your age if you remember this beast.",
+    "keyword": "dinosaur",
+    "horns": 24
   },
   {
-    "title": "Horny Beast 6",
+    "_id": "7",
+    "title": "Unicorn (Squatty Potty)",
     "imageUrl": "https://www.adweek.com/wp-content/uploads/files/blogs/unicorn-gold-hed-2016.jpg",
-    "description": "This beast will change your life!"
+    "description": "This beast will change your life!",
+    "keyword": "unicorn",
+    "horns": 1
   },
   {
-    "title": "Horny Beast 7",
+    "_id": "8",
+    "title": "Goat (Ladder)",
     "imageUrl": "https://steamuserimages-a.akamaihd.net/ugc/541764581748772267/B1A82DAB4C08A6EB30E45AAC46AAD9AE7E8BF625/?imw=1024&imh=640&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
-    "description": "Oh you, ladder beast."
+    "description": "Oh you, ladder beast.",
+    "keyword": "ladder",
+    "horns": 2
   },
   {
-    "title": "Horny Beast 8",
+    "_id": "9",
+    "title": "Waffles (Rango)",
+    "imageUrl": "https://i.vimeocdn.com/video/443126717-5e44210c0c29bc9e43a986aa5309e0c07eebc2d771cfd4adf3c369bf697e1670-d?f=webp",
+    "description": "No beast can walk out on his own story.",
+    "keyword": "rango",
+    "horns": 294
+  },
+  {
+    "_id": "10",
+    "title": "Hellboy (Hellboy)",
+    "imageUrl": "https://assets1.ignimgs.com/thumbs/userUploaded/2019/1/2/hellboy-ign-1546449379834.jpg",
+    "description": "Red, white, whatever . . . beasts are all the same",
+    "keyword": "hellboy",
+    "horns": 2
+  },
+  {
+    "_id": "11",
+    "title": "Bebop (TMNT)",
+    "imageUrl": "https://static.wikia.nocookie.net/tmnt/images/d/dd/1832751-3725262051_582e857296_o.png",
+    "description": "Another mutant beast!",
+    "keyword": "bebop",
+    "horns": 2
+  },
+  {
+    "_id": "12",
+    "title": "Stampy (The Simpsons)",
     "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt949ea8e16e463049/blt2cc06f2b77efea87/63790f072a8c1d10b88689e2/Screenshot_2022-11-19_at_17.14.16.png",
-    "description": "$10,000 cash or this beast?"
+    "description": "$10,000 cash or this beast?",
+    "keyword": "simpsons",
+    "horns": 2
+  },
+  {
+    "_id": "13",
+    "title": "Balthromaw (Rick & Morty)",
+    "imageUrl": "https://static.wikia.nocookie.net/rickandmorty/images/c/c8/S4e4_morty%27s_dragon.png",
+    "description": "Do not bond souls with this beast.",
+    "keyword": "rick",
+    "horns": 2
+  },
+  {
+    "_id": "14",
+    "title": "Sauron (LOTR)",
+    "imageUrl": "https://i.etsystatic.com/26707697/r/il/90c4a0/4247461580/il_570xN.4247461580_14pf.jpg",
+    "description": "The beast that never sleeps",
+    "keyword": "sauron",
+    "horns": 6
+  },
+  {
+    "_id": "15",
+    "title": "Sick Triceratops (Jurassic Park)",
+    "imageUrl": "https://www.slashfilm.com/img/gallery/why-was-the-triceratops-sick-in-jurassic-park/intro-1629910029.jpg",
+    "description": "Clever beast . . . ",
+    "keyword": "dinosaur",
+    "horns": 3
   }
 ]
