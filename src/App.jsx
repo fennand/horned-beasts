@@ -9,66 +9,43 @@ import SelectedBeast from "./components/SelectedBeast";
 function App() {
   const [showModal, setShowModal] = useState(false);
   const [shownBeast, setShownBeast] = useState({});
+  const [horns, setHorns] = useState("");
 
   function handleShowModal(beast) {
     setShowModal(!showModal);
     setShownBeast(beast);
   }
 
+  function handleFilter(event) {
+    setHorns(event.target.value);
+  }
+
   return (
     <div>
       <Header />
-      <DropDownList />
-      <Gallery data={data} handleShowModal={handleShowModal} />
+      <div>
+        <h2>Filter by number of horns:</h2>
+        <select onChange={handleFilter}>
+          <option value="">All</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="6">6</option>
+          <option value="24">24</option>
+          <option value="294">294</option>
+        </select>
+      </div>
+      <Gallery data={data} handleShowModal={handleShowModal} horns={horns} />
       <Footer />
       {showModal && (
         <SelectedBeast
           shownBeast={shownBeast}
-          handleShownBeast={handleShowModal}
+          handleShowModal={handleShowModal}
         />
       )}
     </div>
   );
-  function DropDownList() {
-    const [hornChoice, setHornChoice] = useState(false);
-    return (
-      <div>
-        <button onClick={() => setHornChoice(!hornChoice)}>
-          Toggle Dropdown list
-        </button>
-        {hornChoice && (
-          <form>
-            <label>
-              Filter by number of horns:
-              <select>
-                <option name="One" value="1">
-                  1
-                </option>
-                <option name="OneHalf" value="1.5">
-                  1.5
-                </option>
-                <option name="Two" value="2">
-                  2
-                </option>
-                <option name="Three" value="3">
-                  3
-                </option>
-                <option name="Six" value="6">
-                  6
-                </option>
-                <option name="TwentyFour" value="24">
-                  24
-                </option>
-                <option name="TwoHundred" value="294">
-                  294
-                </option>
-              </select>
-            </label>
-          </form>
-        )}
-      </div>
-    );
-  }
 }
 
 export default App;

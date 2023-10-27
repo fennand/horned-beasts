@@ -19,7 +19,7 @@ export default function HornedBeast({
       <img
         src={imageUrl}
         alt={title}
-        onClick={() => handleShowModal({ title, imageUrl })}
+        onClick={() => handleShowModal({ title, imageUrl, description })}
       />
       <p>{description}</p>
       <p>Horns: {[horns]}</p>
